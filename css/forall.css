@@ -1,0 +1,81 @@
+/*Name: Nilam Adhikari, UN ID: 17437371*/
+/*https://github.com/ankit016/csy1018-assign1.git*/
+body{
+	background-color: #e0e0e0;
+	margin: 0%;
+	padding: 0%;
+	cursor: default;
+}
+
+header{
+	font-size: 1.250em;
+	padding: 3% 2% 3% 2%;
+	margin: 0%;
+	width: 96%;
+	color: #ff0000;
+	background-color: #000000;
+	text-align: center;
+	font-family: courier;
+}
+
+.logo{
+	padding: 0.5%;
+	margin: 0%;
+}
+
+header h1{
+	margin: 0%;
+	padding: 0%;
+}
+
+.menubar{
+	background: #757575;
+	margin:0%;
+	padding: 0%;
+}
+
+.menubar ul{
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0%;
+	padding: 0%;
+}
+
+.menubar ul li{
+	list-style: none;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Russo One';
+	font-weight: bolder;
+	flex: 1 auto;
+	background: transparent;
+	margin: 0%;
+	padding: 2%;
+}
+
+.menubar ul li a{
+	color: #fafafa;
+	text-decoration: none
+}
+
+.menubar ul li:hover, .menubar ul li a:hover{
+	color: #ff0000;
+	background: #454545;
+	transition: background 0.63s ease;
+}
+
+footer{
+	font-size: 1em;
+	padding: 3% 2% 3% 2%;
+	color: #ff0000;
+	background-color: #000000;
+	text-align: center;
+	font-family: courier;
+}
+
+@media all and (max-width: 800px){
+	.menubar ul{
+		display: flex;
+		flex-flow: column;
+	}
+}

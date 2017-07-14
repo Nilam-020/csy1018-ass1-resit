@@ -1,0 +1,54 @@
+/*Name: Nilam Adhikari, UN ID: 17437371*/
+/*https://github.com/ankit016/csy1018-assign1.git*/
+section{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding:5% 2% 5% 2%;
+}
+
+h3{
+	font-size: 1.5em;
+ 	color: #797979;
+ 	text-align: center;
+ 	font-family: cursive;
+ 	width:50%;
+}
+
+fieldset{
+	border-radius: 10px;
+	padding: 2%;
+	margin: 0%;
+	
+}
+
+fieldset label{
+	
+	font-size: 1.25em;
+	font-family: cursive;
+}
+
+fieldset input{
+	width:100%;
+	border-radius: 2px;
+	border: #000000;
+}
+input[type=submit]{
+	color: #ffffff;
+	padding: 5px;
+	font-size: 1em;
+	display: inline-block;
+	width: 8%;
+	font-size: 1.2em;
+	background-color: #000000;
+	border: 1px solid #eeeeee;
+	border-radius: 6px;
+}
+textarea{
+	width: 100%;
+	padding: 16px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+}
