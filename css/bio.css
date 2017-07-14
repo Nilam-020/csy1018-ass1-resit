@@ -1,5 +1,5 @@
 /*Name: Nilam Adhikari, UN ID: 17437371*/
-/*https://github.com/ankit016/csy1018-assign1.git*/
+/*https://github.com/ankit016/csy1018-ass1-resit.git*/
  section{
  	margin: 0% 20%;
  	padding: 2%;
@@ -8,8 +8,6 @@
  }
 .picture{
   margin-left: 70px;
-  display-flex;flex-direction:justify-content;
-  
   text-align: center;
 }
   .picture img{
